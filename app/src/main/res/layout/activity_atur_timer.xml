@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bulangkulon_remote.menu.AturTimer">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/layout_bg"
+        android:elevation="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:paddingLeft="20dp"
+            android:text="Timer"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/text_view_countdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:text="00:00:00"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout">
+
+        <ImageButton
+            android:id="@+id/button_start_pause"
+            android:layout_width="wrap_content"
+            android:background="@drawable/group_mulai"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:paddingLeft="20dp" />
+
+        <ImageButton
+            android:id="@+id/button_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/group_reset"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/layout_bg"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout2"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_12"
+            android:text="Atur Timer"
+            android:textAlignment="center"
+            android:textColor="@color/btn_ungu"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/btn_ungu"
+                android:layout_weight="1"
+                android:text="Jam"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/btn_ungu"
+                android:layout_weight="1"
+                android:text="Menit"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/btn_ungu"
+                android:layout_weight="1"
+                android:text="Detik"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editjam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="00"
+                android:inputType="number"
+                android:maxLength="2"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:background="@drawable/rectangle_3"
+                android:textColor="@color/btn_ungu"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/editmenit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="00"
+                android:inputType="number"
+                android:maxLength="2"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:background="@drawable/rectangle_3"
+                android:textColor="@color/btn_ungu"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/editdetik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:hint="00"
+                android:inputType="number"
+                android:maxLength="2"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:background="@drawable/rectangle_3"
+                android:textColor="@color/btn_ungu"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_timer_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/group_34"
+            android:elevation="10dp" />
+
+    </LinearLayout>
+
+<!--<Button-->
+<!--android:id="@+id/button_start_pause"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_below="@+id/text_view_countdown"-->
+<!--android:layout_centerHorizontal="true"-->
+<!--android:text="start" />-->
+
+<!--<Button-->
+<!--android:id="@+id/button_reset"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_below="@+id/text_view_countdown"-->
+<!--android:layout_marginStart="11dp"-->
+<!--android:layout_toEndOf="@+id/button_start_pause"-->
+<!--android:text="reset"-->
+<!--android:visibility="invisible"-->
+<!--tools:visibility="visible" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

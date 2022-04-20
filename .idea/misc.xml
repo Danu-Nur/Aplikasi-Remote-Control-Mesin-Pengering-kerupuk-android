@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/drawable/ic_backk.xml" value="0.146875" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/drawable/layout_bg.xml" value="0.22" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/layout/activity_atur_mesin.xml" value="0.1" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/layout/activity_atur_suhu.xml" value="0.5" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/layout/activity_atur_timer.xml" value="0.1096311475409836" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/layout/activity_dashboard.xml" value="0.16" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/layout/activity_home.xml" value="0.12" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/layout/toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/mipmap-anydpi-v26/ic_GOALS.xml" value="0.146875" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/mipmap-anydpi-v26/ic_goals.xml" value="0.15486111111111112" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/Bulangkulon_Remote/app/src/main/res/mipmap-anydpi-v26/ic_univer_round.xml" value="0.146875" />
+        <entry key="..\:/Users/Danu/Documents/PROJECT ANDROID STUDIO/app/src/main/res/layout/activity_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
